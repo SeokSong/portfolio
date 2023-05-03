@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('../Font/Palanquin-Bold.ttf') format('truetype');
+  }
+.html, body{
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+    
+    display: flex;
+    width: 100%;
+    margin-top: 100px;
+    padding: 0%;
+  }
+  
+  
+  .leftSide {
+      
+    width: 70%;
+    margin-top: 110px;
+  }
+  
+  
+  .rightSide {
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 0px;
+  }
+  
+  .bigBoxHat{
+      height: 20px;
+      background: #cfbaf0;
+      border-radius: 30px 30px 0 0;
+  }
+  
+  
+  .bigBox{
+    /* Rectangle 1 */
+    height: 601px;
+    background: #212529;
+    border-radius: 0 0 30px 30px;
+  }
+  
+  
+  .smallBoxHat{
+      width: 60%;
+      margin-left: 175px;
+      height: 20px;
+      background: #cfbaf0;
+      margin-top: -10px;
+      border-radius: 30px 30px 0 0;
+  }
+  
+  .smallBox{
+      width: 60%;
+      margin-left: 175px;
+      height: 301px;
+      background: #212529;
+      border-radius: 0 0 30px 30px;
+  }
+  
+  
+  .Name{
+        margin-left: 250px;
+        font-family: 'MyFont', Palanquin;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 50px;
+        line-height: 91px;
+        /* identical to box height */
+
+
+        color: #000000;
+  }
+
+  .AboutMe{
+    margin-left: 50px;
+    padding-top: 120px;
+    font-family: 'Kyiv*Type Serif';
+    font-style: normal;
+    font-weight: 350;
+    font-size: 40px;
+    line-height: 48px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+  }
+
+.AboutMeBody{
+    margin-top: 50px;
+    margin-left: 50px;
+    font-family: 'Palanquin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 54px;
+
+    color: #FFFFFF;
+}

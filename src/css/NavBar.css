@@ -1,0 +1,28 @@
+
+.nav-bar {
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 3.716px 3.346px 40px 0px rgba(43,43,43,0.1);
+  }
+  
+  
+  .tab {
+    padding: 10px 125px;
+    margin: 10px 10px;
+    font-family: 'Kyiv*Type Serif';
+    font-style: normal;
+    font-weight: 350;
+    font-size: 35px;
+    line-height: 42px;
+    color: #03045e;
+    text-decoration: none;
+  }
+  
+  
+  .tab:hover {
+    color: #3c6e71;
+    text-decoration: underline;
+  }
